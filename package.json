@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "private": "true",
+  "scripts": {
+    "build:js": "node esbuild.config.js"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.0.0",
+    "flatpickr": "^4.6.9",
+    "stimulus-flatpickr": "^3.0.0-0",
+    "tom-select": "^2.0.0-rc.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "esbuild": "^0.12.28",
+    "esbuild-plugin-postcss2": "Intrepidd/esbuild-plugin-postcss2#postcss-dependency-dist",
+    "esbuild-rails": "^1.0.3",
+    "postcss": "^8.4.1",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-nesting": "^10.0.2"
+  }
+}
